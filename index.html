@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test-app</title>
-    <link rel="stylesheet" href="./normolise.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/normolise.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
+
+<body class="body">
     <header class="header">
         <div class="container">
-           <div class="header__container">
-               <div class="logo"></div>
-               <ul class="header__menu">
-                   <li class="menu__item"><a href="#" class="menu__link">Главное</a></li>
-                   <li class="menu__item"><a href="#" class="menu__link">Направления деятельности</a></li>
-                   <li class="menu__item"><a href="#" class="menu__link">Новости</a></li>
-                   <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-                   <li class="menu__item"><a href="#" class="menu__link">Оставить обращение</a></li>
-               </ul>
-               <button class="header__burger-menu">
-               </button>
-           </div>
+            <div class="header__container">
+                <div class="logo"></div>
+                <ul class="header__menu">
+                    <li class="menu__item"><a href="#" class="menu__link">Главное</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Направления деятельности</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Новости</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Оставить обращение</a></li>
+                </ul>
+                <button class="header__burger-menu">
+                </button>
+            </div>
         </div>
     </header>
     <main class="main">
-        section
+        <div class="container">
+            <section class="form__section">
+                <div class="menu"></div>
+                <form action="submit" class="input input__form">
+                    <input type="text" class="iinput nput__name">
+                    <input type="email" class="input input__email">
+                    <input type="text" class="input input__phone-number">
+                    <input type="text" class="input input__message">
+                </form>
+                <div class="drag_and_drop"></div>
+                <input type="radio" class="input input__checkbox">
+                <button class="btn__send">Отправить</button>
+            </section>
+        </div>
     </main>
     <footer class="footer">
         footer
     </footer>
 </body>
 <script type="text/javascript" src="./main.js"></script>
+
 </html>
